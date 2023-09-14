@@ -47,7 +47,8 @@ body {
     gap: 20px;
 }
 .time__img{
-    width: 20px;
+    width: 17px;
+    height: 17px;
 }
 .search__bar {
   background-color: #ffffff83;
