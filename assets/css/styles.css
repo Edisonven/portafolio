@@ -125,8 +125,9 @@ body {
     height: 100%;
     position: absolute;
     background-color: black;
-    height: 100%;
     width: 100%;
+    /* clip-path: circle(0% at center); */
+    justify-content: space-between;
   }
   .proyectos__header {
     display: flex;
