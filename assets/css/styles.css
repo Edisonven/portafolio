@@ -67,3 +67,7 @@ body {
 .google__icon--mic {
   width: 20px;
 }
+.date{
+    text-align: center;
+    color: white;
+}
