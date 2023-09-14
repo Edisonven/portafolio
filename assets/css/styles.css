@@ -41,6 +41,14 @@ body {
   justify-content: space-between;
   padding: 2px 10px;
 }
+.time{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.time__img{
+    width: 20px;
+}
 .search__bar {
   background-color: #ffffff83;
   width: 70%;
