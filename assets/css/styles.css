@@ -127,6 +127,7 @@ body {
     background-color: black;
     width: 100%;
     transform: scale(0);
+    transition: ease-out 0.1s;
     justify-content: space-between;
   }
   .proyectos__header {
@@ -179,13 +180,14 @@ body {
   }
   .proyectos:target {
     transform: scale(1);
-    transition: ease-out 0.1s;
+  
   }
   .proyectos__footer{
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 90px;
   }
 }
 @media (min-width: 600px) {
