@@ -126,7 +126,7 @@ body {
     position: absolute;
     background-color: black;
     width: 100%;
-    /* clip-path: circle(0% at center); */
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
     justify-content: space-between;
   }
   .proyectos__header {
@@ -184,6 +184,10 @@ body {
     background-color: var(--color-primario);
     padding: 3px;
     border-radius: 10px;
+  }
+  .proyectos:target{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    transition: clip-path linear .2s;
   }
 }
 @media (min-width: 600px) {
