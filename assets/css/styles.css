@@ -150,6 +150,9 @@ body {
     justify-content: space-around;
     margin-bottom: 15px;
   }
+  .proyectos__card__img{
+    width: 120px;
+  }
 }
 @media (min-width: 600px) {
   .phone__screen {
