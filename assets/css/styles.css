@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 5px 5px 10px, -5px -5px 10px;
+ 
 }
 .title {
   font-size: 3rem;
@@ -31,6 +32,8 @@ body {
   width: 100%;
   background-image: url(../images/fondo.jpg);
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 .phone__screen__header {
   display: flex;
@@ -69,5 +72,33 @@ body {
 }
 .date{
     text-align: center;
-    color: white;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:lighter;
+    font-size: 2rem;
+}
+.footer-screen{
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   height: 100%;
+   padding-bottom: 20px;
+}
+.footer__apps{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer__apps__img{
+    width: 40px;
+}
+.footer__document{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.footer__document__img{
+    width: 50px;
 }
