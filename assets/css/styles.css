@@ -126,7 +126,7 @@ body {
     position: absolute;
     background-color: black;
     width: 100%;
-    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    transform: scale(0);
     justify-content: space-between;
   }
   .proyectos__header {
@@ -177,17 +177,15 @@ body {
   .proyectos__card__text {
     color: var(--color-primario);
   }
-
-  .proyectos__footer__line {
-    width: 50%;
-    margin: 0 auto;
-    background-color: var(--color-primario);
-    padding: 3px;
-    border-radius: 10px;
+  .proyectos:target {
+    transform: scale(1);
+    transition: ease-out 0.1s;
   }
-  .proyectos:target{
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    transition: clip-path linear .2s;
+  .proyectos__footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
   }
 }
 @media (min-width: 600px) {
