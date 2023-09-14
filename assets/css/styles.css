@@ -17,7 +17,8 @@ body {
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 5px 5px 10px, -5px -5px 10px;
- 
+  min-width: 380px;
+  background-color: black;
 }
 .title {
   font-size: 3rem;
@@ -26,8 +27,9 @@ body {
   justify-content: center;
 }
 .phone__screen {
-  border: 8px solid #030303;
-  border-radius: 15px;
+  border-width: 8px 8px 30px;
+  border-style: solid;
+  border-radius: 15px 15px 50px 50px ;
   height: 100%;
   width: 100%;
   background-image: url(../images/fondo.jpg);
@@ -41,14 +43,14 @@ body {
   justify-content: space-between;
   padding: 2px 10px;
 }
-.time{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.time {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
-.time__img{
-    width: 17px;
-    height: 17px;
+.time__img {
+  width: 17px;
+  height: 17px;
 }
 .search__bar {
   background-color: #ffffff83;
@@ -79,35 +81,51 @@ body {
 .google__icon--mic {
   width: 20px;
 }
-.date{
-    text-align: center;
-    color: black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight:lighter;
-    font-size: 2rem;
+.date {
+  text-align: center;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
+  font-size: 2rem;
 }
-.footer-screen{
-   display: flex;
-   flex-direction: column;
-   justify-content: end;
-   height: 100%;
-   padding-bottom: 20px;
+.footer-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  padding-bottom: 20px;
 }
-.footer__apps{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.footer__apps {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.footer__apps__img{
-    width: 40px;
+.footer__apps__img {
+  width: 40px;
 }
-.footer__document{
-    display:flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+.footer__document {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
-.footer__document__img{
-    width: 50px;
+.footer__document__img {
+  width: 50px;
+}
+@media (min-width: 600px) {
+  .phone__screen {
+    background-image: url(../images/fondo-tablet.jpg);
+    background-size: cover;
+  }
+  .time__img {
+    display: none;
+  }
+  .phone__screen{
+   border: 20px solid black;
+   border-radius: 35px;
+  }
+  .container{
+    background-color: black;
+  }
 }
