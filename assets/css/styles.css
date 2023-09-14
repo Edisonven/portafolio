@@ -118,13 +118,16 @@ body {
 .footer__document__img {
   width: 50px;
 }
-.proyectos {
-  position: absolute;
-  background-color: black;
-  height: 100%;
-  width: 100%;
-}
 @media (max-width: 600px) {
+  .proyectos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+  }
   .proyectos__header {
     display: flex;
     align-items: center;
@@ -151,7 +154,7 @@ body {
     justify-content: space-around;
     margin-bottom: 15px;
   }
-  .proyectos__cards{
+  .proyectos__cards {
     margin: 30px 10px;
     display: flex;
     justify-content: space-between;
@@ -172,6 +175,14 @@ body {
   }
   .proyectos__card__text {
     color: var(--color-primario);
+  }
+
+  .proyectos__footer__line {
+    width: 50%;
+    margin: 0 auto;
+    background-color: var(--color-primario);
+    padding: 3px;
+    border-radius: 10px;
   }
 }
 @media (min-width: 600px) {
