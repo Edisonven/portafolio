@@ -243,8 +243,7 @@ body {
     color: var(--color-primario);
   }
   .proyectos__time__img {
-    width: 17px;
-    height: 17px;
+   display: none;
   }
   .proyectos__hr {
     opacity: 50%;
