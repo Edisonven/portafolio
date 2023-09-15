@@ -213,4 +213,10 @@ body {
   .proyectos {
     display: none;
   }
+  .container {
+    max-width: 1300px;
+  }
+  .footer__apps{
+    margin: 0 100px;
+  }
 }
