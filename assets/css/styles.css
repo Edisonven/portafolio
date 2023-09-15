@@ -1,5 +1,6 @@
 :root {
   --color-primario: #fff;
+  --bold-weight: 700;
 }
 * {
   margin: 0;
@@ -7,7 +8,7 @@
 }
 
 body {
-  font-family: "Bebas Neue", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   opacity: 80%;
   min-height: 100vh;
@@ -83,7 +84,6 @@ body {
 .date {
   text-align: center;
   color: black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: lighter;
   font-size: 2rem;
 }
@@ -120,6 +120,9 @@ body {
 .footer__document__img {
   width: 50px;
   height: 48px;
+}
+.footer__document__text{
+  font-weight: var(--bold-weight);
 }
 @media (max-width: 600px) {
   .proyectos {
