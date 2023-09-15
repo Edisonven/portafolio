@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-min-height: 800px;
+  min-height: 800px;
   border: 3px solid #424242;
   width: 75%;
   margin: 0 auto;
@@ -102,15 +102,23 @@ min-height: 800px;
 .footer__apps__img {
   width: 40px;
 }
+.footer__documents {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .footer__document {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding-bottom: 20px;
-  padding-left: 20px;
+  padding: 20px;
+}
+.footer__document__link {
+  width: max-content;
 }
 .footer__document__img {
   width: 50px;
+  height: 48px;
 }
 @media (max-width: 600px) {
   .proyectos {
@@ -174,9 +182,8 @@ min-height: 800px;
   }
   .proyectos:target {
     transform: scale(1);
-  
   }
-  .proyectos__footer{
+  .proyectos__footer {
     padding-bottom: 10px;
     display: flex;
     align-items: center;
