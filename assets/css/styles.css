@@ -277,6 +277,8 @@ body {
   }
   .proyectos__card__text {
     color: var(--color-primario);
+    text-transform: uppercase;
+    font-weight: var(--bold-weight);
   }
   .proyectos:target {
     transform: scale(1);
