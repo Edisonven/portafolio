@@ -201,8 +201,18 @@ body {
     background-image: url(../images/fondo-tablet.jpg);
     background-size: cover;
   }
+  .phone__screen__header{
+    padding: 20px;
+
+  }
+  .time__o-clock{
+    font-size: 2rem;
+  }
   .time__img {
     display: none;
+  }
+  .search__bar{
+    width: 30%;
   }
   .phone__screen {
     border: 20px solid black;
@@ -214,8 +224,17 @@ body {
   .container {
     max-width: 1300px;
   }
+  .footer__container{
+    padding:20px;
+  }
   .footer__apps{
     margin: 0 100px;
+    background-color: #ffffff65;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  .footer__apps__img{
+    transform: scale(1.3);
   }
   .proyectos {
     display: flex;
