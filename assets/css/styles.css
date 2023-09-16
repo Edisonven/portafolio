@@ -225,6 +225,9 @@ body {
   .search__bar {
     width: 30%;
   }
+  .search__bar__text{
+    display: none;
+  }
   .date__title {
     display: none;
   }
