@@ -9,7 +9,6 @@
 
 body {
   font-family: "Ubuntu", sans-serif;
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
   opacity: 80%;
   min-height: 100vh;
   padding-top: 20px;
