@@ -200,6 +200,9 @@ body {
     justify-content: center;
     gap: 90px;
   }
+  .proyectos__footer__link--tablet{
+    display: none;
+  }
   .date__title__header {
     display: none;
   }
@@ -266,6 +269,9 @@ body {
     font-weight: var(--bold-weight);
     color: var(--color-primario);
     font-size: 1.2rem;
+  }
+  .proyectos__footer__link{
+    display: none;
   }
   .proyectos {
     display: flex;
