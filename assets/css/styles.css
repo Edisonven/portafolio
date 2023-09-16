@@ -197,6 +197,10 @@ body {
   }
 }
 @media (min-width: 600px) {
+  .container {
+    background-color: black;
+    min-width: 1000px;
+  }
   .phone__screen {
     background-image: url(../images/fondo-tablet.jpg);
     background-size: cover;
@@ -218,9 +222,7 @@ body {
     border: 20px solid black;
     border-radius: 35px;
   }
-  .container {
-    background-color: black;
-  }
+  
   .container {
     max-width: 1300px;
   }
