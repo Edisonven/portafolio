@@ -306,12 +306,12 @@ body {
   }
   .proyectos__hr {
     opacity: 50%;
+    margin: 15px 0;
   }
   .proyectos__navbar__icons {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 15px;
   }
   .proyectos__cards {
     margin: 0px 10px;
@@ -346,6 +346,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 150px;
+    gap: 200px;
   }
 }
