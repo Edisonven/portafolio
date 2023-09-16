@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   opacity: 80%;
   min-height: 100vh;
@@ -58,7 +58,7 @@ body {
   font-weight: lighter;
   font-size: 2rem;
 }
-.date__title{
+.date__title {
   color: var(--color-primario);
 }
 .search__bar {
@@ -125,7 +125,7 @@ body {
   width: 45px;
   height: 43px;
 }
-.footer__document__text{
+.footer__document__text {
   font-weight: var(--bold-weight);
   color: var(--color-primario);
 }
@@ -200,36 +200,35 @@ body {
     justify-content: center;
     gap: 90px;
   }
-  .date__title__header{
+  .date__title__header {
     display: none;
   }
 }
 @media (min-width: 600px) {
   .container {
     background-color: black;
-    min-width: 1000px;
+    min-width: 1100px;
   }
   .phone__screen {
     background-image: url(../images/fondo-tablet-2.webp);
     background-size: cover;
   }
-  .phone__screen__header{
+  .phone__screen__header {
     padding: 20px;
-
   }
-  .time__o-clock{
+  .time__o-clock {
     font-size: 2rem;
   }
   .time__img {
     display: none;
   }
-  .search__bar{
+  .search__bar {
     width: 30%;
   }
-  .date__title{
+  .date__title {
     display: none;
   }
-  .date__title__header{
+  .date__title__header {
     color: var(--color-primario);
     font-size: 1.8rem;
   }
@@ -237,30 +236,30 @@ body {
     border: 20px solid black;
     border-radius: 35px;
   }
-  
+
   .container {
     max-width: 1300px;
   }
-  .footer__container{
-    padding:20px;
+  .footer__container {
+    padding: 20px;
   }
-  .footer__apps{
+  .footer__apps {
     margin: 0 100px;
     background-color: #ffffff65;
     padding: 15px;
     border-radius: 20px;
   }
-  .footer__apps__img{
+  .footer__apps__img {
     transform: scale(1.3);
     background-color: var(--color-primario);
     box-sizing: content-box;
     padding: 5px;
     border-radius: 10px;
   }
-  .footer__document__img{
+  .footer__document__img {
     transform: scale(1.3);
   }
-  .footer__document__text{
+  .footer__document__text {
     font-weight: var(--bold-weight);
     color: var(--color-primario);
     font-size: 1.2rem;
@@ -275,7 +274,7 @@ body {
     transform: scale(0);
     transition: ease-out 0.1s;
     justify-content: space-between;
-    
+    padding: 18px 10px;
   }
   .proyectos__header {
     display: flex;
@@ -290,8 +289,11 @@ body {
     gap: 20px;
     color: var(--color-primario);
   }
+  .proyectos__time__o-clock {
+    font-size: 2rem;
+  }
   .proyectos__time__img {
-   display: none;
+    display: none;
   }
   .proyectos__hr {
     opacity: 50%;
@@ -303,7 +305,7 @@ body {
     margin-bottom: 15px;
   }
   .proyectos__cards {
-    margin: 30px 10px;
+    margin: 0px 10px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
