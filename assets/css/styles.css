@@ -195,6 +195,9 @@ body {
     justify-content: center;
     gap: 90px;
   }
+  .date__title__header{
+    display: none;
+  }
 }
 @media (min-width: 600px) {
   .container {
@@ -219,8 +222,11 @@ body {
     width: 30%;
   }
   .date__title{
-    font-weight: var();
+    display: none;
+  }
+  .date__title__header{
     color: var(--color-primario);
+    font-size: 1.8rem;
   }
   .phone__screen {
     border: 20px solid black;
