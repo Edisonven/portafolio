@@ -310,6 +310,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 50px;
+   /*  overflow: hidden; */
   }
   .proyectos__card {
     width: max-content;
@@ -321,7 +322,7 @@ body {
   }
   .proyectos__card__img {
     width: 300px;
-    height: 250px;
+    height: 200px;
     border: 1px solid rgba(255, 255, 255, 0.418);
   }
   .proyectos__card__text {
@@ -339,4 +340,10 @@ body {
     justify-content: center;
     gap: 200px;
   }
+}
+@media(max-height: 768px){
+  .container {
+    transform: scale(0.7);
+  }
+
 }
