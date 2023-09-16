@@ -217,9 +217,6 @@ body {
   .phone__screen__header {
     padding: 20px;
   }
-  .time__o-clock {
-    font-size: 2rem;
-  }
   .time__img {
     display: none;
   }
@@ -234,7 +231,6 @@ body {
   }
   .date__title__header {
     color: var(--color-primario);
-    font-size: 1.8rem;
   }
   .phone__screen {
     border: 20px solid black;
