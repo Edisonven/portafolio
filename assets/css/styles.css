@@ -198,7 +198,7 @@ body {
     justify-content: center;
     gap: 90px;
   }
-  .proyectos__footer__link--tablet{
+  .proyectos__footer__link--tablet {
     display: none;
   }
   .date__title__header {
@@ -213,6 +213,8 @@ body {
   .phone__screen {
     background-image: url(../images/fondo-tablet-2.webp);
     background-size: cover;
+    border: 30px solid black;
+    border-radius: 45px;
   }
   .phone__screen__header {
     padding: 20px;
@@ -221,9 +223,9 @@ body {
     display: none;
   }
   .search__bar {
-    width: 30%;
+    width: 45%;
   }
-  .search__bar__text{
+  .search__bar__text {
     display: none;
   }
   .date__title {
@@ -232,11 +234,6 @@ body {
   .date__title__header {
     color: var(--color-primario);
   }
-  .phone__screen {
-    border: 20px solid black;
-    border-radius: 35px;
-  }
-
   .container {
     max-width: 1300px;
   }
@@ -264,7 +261,7 @@ body {
     color: var(--color-primario);
     font-size: 1.2rem;
   }
-  .proyectos__footer__link{
+  .proyectos__footer__link {
     display: none;
   }
   .proyectos {
@@ -291,9 +288,6 @@ body {
     align-items: center;
     gap: 20px;
     color: var(--color-primario);
-  }
-  .proyectos__time__o-clock {
-    font-size: 2rem;
   }
   .proyectos__time__img {
     display: none;
