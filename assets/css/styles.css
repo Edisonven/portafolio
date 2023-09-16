@@ -118,8 +118,8 @@ body {
   width: max-content;
 }
 .footer__document__img {
-  width: 50px;
-  height: 48px;
+  width: 45px;
+  height: 43px;
 }
 .footer__document__text{
   font-weight: var(--bold-weight);
