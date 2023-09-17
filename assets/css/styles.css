@@ -128,6 +128,9 @@ body {
   color: var(--color-primario);
 }
 @media (max-width: 600px) {
+  .phone__screen {
+    max-height: 800px;
+  }
   .proyectos {
     display: flex;
     flex-direction: column;
@@ -215,6 +218,7 @@ body {
     background-size: cover;
     border: 30px solid black;
     border-radius: 45px;
+    max-height: 900px;
   }
   .phone__screen__header {
     padding: 20px;
