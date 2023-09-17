@@ -226,7 +226,12 @@ body {
     padding: 20px;
   }
   .time__img {
-    display: none;
+    position: absolute;
+    top: 50%;
+    left: -23px;
+    z-index: 10;
+    transform: scale(0.8);
+    
   }
   .search__bar {
     width: 45%;
