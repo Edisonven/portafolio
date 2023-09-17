@@ -129,7 +129,7 @@ body {
 }
 @media (max-width: 600px) {
   .phone__screen {
-    max-height: 800px;
+    max-height: 820px;
   }
   .proyectos {
     display: flex;
