@@ -81,14 +81,14 @@ body {
   background-color: #1a1919;
   z-index: 12;
   border-radius: 8px;
-  padding: 50px 8px 20px;
+  padding: 50px 18px 20px;
 }
 .searching__bar__google__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   border-bottom: 1px solid #838080c4;
 }
 .google__header__icon {
@@ -116,6 +116,20 @@ body {
 }
 [placeholder="Buscar..."]:focus{
   outline: none;
+}
+.google__content__search{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.google__content__item{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 15px;
+}
+.google__content__search__text{
+  color: var(--color-primario);
 }
 .searching__bar__icons {
   display: flex;
