@@ -105,16 +105,16 @@ body {
 }
 .google__header__text {
   color: #928e8e;
+  font-size: 1rem;
 }
-[placeholder]{
+[placeholder="Buscar..."]{
   background-color: transparent;
   border: none;
   position: absolute;
   left: 50px;
   height: 30px;
-  width: 250px;
 }
-[placeholder]:focus{
+[placeholder="Buscar..."]:focus{
   outline: none;
 }
 .searching__bar__icons {
@@ -255,6 +255,9 @@ body {
   .time__and__date__date {
     display: none;
   }
+  [placeholder="Buscar..."]{
+    width: 280px;
+  }
 }
 /*DESKTOP DESIGN*/
 @media (min-width: 600px) {
@@ -284,6 +287,7 @@ body {
   .searching__bar__text {
     display: none;
   }
+  
   .phone__screen__date {
     display: none;
   }
@@ -395,5 +399,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 200px;
+  }
+  [placeholder="Buscar..."]{
+    width: 1150px;
   }
 }
