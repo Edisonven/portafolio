@@ -215,17 +215,39 @@ body {
   padding: 50px 18px 10px;
   z-index: 5;
 }
-.footer__document__notes__header{
+.footer__document__notes__header {
   display: flex;
   align-items: center;
   justify-content: end;
   gap: 90px;
 }
-.footer__document__notes__icons{
+.footer__document__notes__icons {
   display: flex;
-  align-items: center ;
+  align-items: center;
   justify-content: center;
   gap: 50px;
+}
+.footer__document__search__bar {
+  display: flex;
+  align-items:center;
+  gap: 10px;
+  padding: 10px 15px;
+  background-color: var(--backgoound-bars);
+  border-radius: 40px;
+  margin-top: 25px;
+}
+[placeholder="Buscar notas"] {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 60px;
+  width: 250px;
+  height: 35px;
+  font-size: 1rem;
+  color: var(--color-primario);
+}
+[placeholder="Buscar notas"]:focus {
+  outline: none;
 }
 .navigation__icons {
   position: absolute;
@@ -465,7 +487,8 @@ body {
     transform: scale(1);
   }
 
-  [placeholder="Buscar..."] {
+  [placeholder="Buscar..."],
+  [placeholder="Buscar notas"] {
     width: 1150px;
   }
 }
