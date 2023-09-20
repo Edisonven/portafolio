@@ -182,8 +182,9 @@ body {
 }
 .footer__documents {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 .footer__document {
   display: flex;
@@ -299,6 +300,9 @@ body {
   }
   [placeholder="Buscar..."] {
     width: 280px;
+  }
+  .footer__document{
+    width: 120px;
   }
 }
 /*DESKTOP DESIGN*/
