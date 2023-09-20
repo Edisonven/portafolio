@@ -81,7 +81,38 @@ body {
   background-color: #1a1919;
   z-index: 12;
   border-radius: 8px;
-
+  padding: 50px 8px 20px;
+}
+.searching__bar__google__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #838080c4;
+}
+.google__header__icon {
+  width: 25px;
+}
+.google__header__icon__text{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.google__header__icon--mic{
+  height: 20px;
+  width: 15px;
+}
+.google__header__text {
+  color: #928e8e;
+}
+[placeholder]{
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 50px;
+  height: 30px;
+  width: 250px;
 }
 .searching__bar__icons {
   display: flex;
