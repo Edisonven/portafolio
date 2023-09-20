@@ -162,7 +162,7 @@ body {
 .searching__bar__icon--mic {
   width: 20px;
 }
-.phone__screen__footer__container{
+.phone__screen__footer__container {
   padding-bottom: 50px;
 }
 .phone__screen__footer {
@@ -209,6 +209,11 @@ body {
   left: 50%;
   transform: translate(-50%, 50%);
   z-index: 23;
+}
+.navigation__icons a:active {
+  background-color: #928e8e38;
+  outline: 10px solid #928e8e38;
+  border-radius: 10px;
 }
 
 /*MOBILE DESIGN*/
@@ -432,7 +437,7 @@ body {
   .proyectos:target {
     transform: scale(1);
   }
- 
+
   [placeholder="Buscar..."] {
     width: 1150px;
   }
