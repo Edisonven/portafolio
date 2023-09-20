@@ -74,7 +74,7 @@ body {
   text-decoration: none;
   position: relative;
 }
-.searching__bar__google {
+.searching__bar__container {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -82,6 +82,15 @@ body {
   z-index: 12;
   border-radius: 8px;
   padding: 50px 18px 20px;
+  transform: scale(0);
+  transition: ease-out 0.1s;
+}
+.searching__bar__container:target {
+  transform: scale(1);
+}
+.searching__bar__google {
+  display: flex;
+  flex-direction: column;
 }
 .searching__bar__google__header {
   display: flex;
@@ -94,12 +103,12 @@ body {
 .google__header__icon {
   width: 25px;
 }
-.google__header__icon__text{
+.google__header__icon__text {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.google__header__icon--mic{
+.google__header__icon--mic {
   height: 20px;
   width: 15px;
 }
@@ -107,28 +116,28 @@ body {
   color: #928e8e;
   font-size: 1rem;
 }
-[placeholder="Buscar..."]{
+[placeholder="Buscar..."] {
   background-color: transparent;
   border: none;
   position: absolute;
   left: 50px;
   height: 30px;
 }
-[placeholder="Buscar..."]:focus{
+[placeholder="Buscar..."]:focus {
   outline: none;
 }
-.google__content__search{
+.google__content__search {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.google__content__item{
+.google__content__item {
   display: flex;
   align-items: center;
   gap: 20px;
   margin-top: 15px;
 }
-.google__content__search__text{
+.google__content__search__text {
   color: var(--color-primario);
 }
 .searching__bar__icons {
@@ -256,20 +265,20 @@ body {
   .proyectos:target {
     transform: scale(1);
   }
-  .proyectos__footer {
+  .navigation__icons {
     padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 90px;
   }
-  .proyectos__footer__link--tablet {
+  .navigation__icon__link--tablet {
     display: none;
   }
   .time__and__date__date {
     display: none;
   }
-  [placeholder="Buscar..."]{
+  [placeholder="Buscar..."] {
     width: 280px;
   }
 }
@@ -301,7 +310,7 @@ body {
   .searching__bar__text {
     display: none;
   }
-  
+
   .phone__screen__date {
     display: none;
   }
@@ -338,7 +347,7 @@ body {
     color: var(--color-primario);
     font-size: 1.2rem;
   }
-  .proyectos__footer__link {
+  .navigation__icon__link {
     display: none;
   }
   .proyectos {
@@ -407,14 +416,14 @@ body {
   .proyectos:target {
     transform: scale(1);
   }
-  .proyectos__footer {
+  .navigation__icons {
     padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 200px;
   }
-  [placeholder="Buscar..."]{
+  [placeholder="Buscar..."] {
     width: 1150px;
   }
 }
