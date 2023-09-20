@@ -376,7 +376,6 @@ body {
     width: 100%;
     transform: scale(0);
     transition: ease-out 0.1s;
-    justify-content: space-between;
     padding: 18px 10px;
     padding-top: 80px;
   }
