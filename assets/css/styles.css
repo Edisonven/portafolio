@@ -213,6 +213,19 @@ body {
   width: 100%;
   background-color: var(--color--secundario);
   padding: 50px 18px 10px;
+  z-index: 5;
+}
+.footer__document__notes__header{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 90px;
+}
+.footer__document__notes__icons{
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+  gap: 50px;
 }
 .navigation__icons {
   position: absolute;
