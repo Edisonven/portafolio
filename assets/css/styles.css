@@ -1,6 +1,7 @@
 :root {
   --color-primario: #fff;
   --bold-weight: 700;
+  --backgoound-bars:#444242d7;
 }
 * {
   margin: 0;
@@ -59,7 +60,7 @@ body {
   color: var(--color-primario);
 }
 .phone__screen__searching__bar {
-  background-color: #ffffff83;
+  background-color: var(--backgoound-bars);
   width: 70%;
   margin: 50px auto;
   border-radius: 30px;
@@ -122,6 +123,8 @@ body {
   font-weight: var(--bold-weight);
   color: var(--color-primario);
 }
+
+/*MOBILE DESIGN*/
 @media (max-width: 600px) {
   .phone__screen {
     max-height: 100vh;
@@ -203,6 +206,7 @@ body {
     display: none;
   }
 }
+/*DESKTOP DESIGN*/
 @media (min-width: 600px) {
   .container {
     background-color: black;
@@ -244,7 +248,7 @@ body {
   }
   .footer__apps {
     margin: 0 auto;
-    background-color: #ffffff65;
+    background-color: var(--backgoound-bars);
     padding: 20px;
     justify-content: center;
     width: max-content;
