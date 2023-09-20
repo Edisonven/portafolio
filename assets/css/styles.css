@@ -1,7 +1,7 @@
 :root {
   --color-primario: #fff;
   --bold-weight: 700;
-  --backgoound-bars:#444242d7;
+  --backgoound-bars: #444242d7;
 }
 * {
   margin: 0;
@@ -69,6 +69,15 @@ body {
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
+  position: relative;
+}
+.searching__bar__google {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #1a1919;
+  z-index: 12;
+  border-radius: 8px;
 }
 .searching__bar__icons {
   display: flex;
@@ -79,7 +88,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   color: var(--color-primario);
-  
 }
 .searching__bar__icon {
   width: 30px;
