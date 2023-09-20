@@ -3,6 +3,7 @@
   --bold-weight: 700;
   --backgoound-bars: #444242d7;
   --color--secundario: #000000;
+  --color--gris: #202020;
 }
 * {
   margin: 0;
@@ -227,14 +228,32 @@ body {
   justify-content: center;
   gap: 50px;
 }
-.footer__document__search__bar {
+.footer__document__notes__search__bar {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 10px;
   padding: 10px 15px;
-  background-color: var(--backgoound-bars);
+  background-color: var(--color--gris);
   border-radius: 40px;
   margin-top: 25px;
+}
+.footer_document__notes__folders{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.footer_document__notes__folders__carpet{
+  padding: 12px;
+  background-color: var(--color--gris);
+  border-radius: 15px;
+}
+.footer_document__notes__folders__text {
+  color: var(--color-primario);
+  padding: 15px;
+  background-color: var(--backgoound-bars);
+  width: max-content;
+  border-radius: 15px;
 }
 [placeholder="Buscar notas"] {
   background-color: transparent;
