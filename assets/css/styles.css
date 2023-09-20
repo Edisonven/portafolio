@@ -83,7 +83,7 @@ body {
   border-radius: 8px;
   padding: 50px 18px 10px;
   transform: scale(0);
-  transition: ease-out 0.1s;
+  transition: ease-out 0.2s;
 }
 .searching__bar__container:target {
   transform: scale(1);
@@ -224,7 +224,7 @@ body {
     background-color: black;
     width: 100%;
     transform: scale(0);
-    transition: ease-out 0.1s;
+    transition: ease-out 0.2s;
     padding-top: 50px;
   }
   .proyectos__header {
@@ -375,7 +375,7 @@ body {
     background-color: black;
     width: 100%;
     transform: scale(0);
-    transition: ease-out 0.1s;
+    transition: ease-out 0.2s;
     padding: 18px 10px;
     padding-top: 80px;
   }
