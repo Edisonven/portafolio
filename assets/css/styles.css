@@ -81,7 +81,7 @@ body {
   background-color: #1a1919;
   z-index: 12;
   border-radius: 8px;
-  display: none;
+
 }
 .searching__bar__icons {
   display: flex;
@@ -239,7 +239,7 @@ body {
   }
   .time__and__date__img {
     position: absolute;
-    top: 50%;
+    top: 400px;
     left: -23px;
     z-index: 10;
     transform: scale(0.8);
