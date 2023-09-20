@@ -2,6 +2,7 @@
   --color-primario: #fff;
   --bold-weight: 700;
   --backgoound-bars: #444242d7;
+  --color--secundario: #000000;
 }
 * {
   margin: 0;
@@ -22,7 +23,7 @@ body {
   border-radius: 20px;
   box-shadow: 5px 5px 10px, -5px -5px 10px;
   min-width: 380px;
-  background-color: black;
+  background-color: var(--color--secundario);
 }
 .phone__screen {
   border-width: 8px 8px 20px;
@@ -204,6 +205,15 @@ body {
   font-weight: var(--bold-weight);
   color: var(--color-primario);
 }
+.footer__document__notes__container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color--secundario);
+  padding: 50px 18px 10px;
+}
 .navigation__icons {
   position: absolute;
   top: 92%;
@@ -227,7 +237,7 @@ body {
     flex-direction: column;
     height: 100%;
     position: absolute;
-    background-color: black;
+    background-color: var(--color--secundario);
     width: 100%;
     transform: scale(0);
     transition: ease-out 0.2s;
@@ -301,14 +311,14 @@ body {
   [placeholder="Buscar..."] {
     width: 280px;
   }
-  .footer__document{
+  .footer__document {
     width: 120px;
   }
 }
 /*DESKTOP DESIGN*/
 @media (min-width: 600px) {
   .container {
-    background-color: black;
+    background-color: var(--color--secundario);
     min-width: 1200px;
   }
   .phone__screen {
@@ -381,7 +391,7 @@ body {
     flex-direction: column;
     height: 100%;
     position: absolute;
-    background-color: black;
+    background-color: var(--color--secundario);
     width: 100%;
     transform: scale(0);
     transition: ease-out 0.2s;
