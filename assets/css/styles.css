@@ -114,6 +114,9 @@ body {
   height: 30px;
   width: 250px;
 }
+[placeholder]:focus{
+  outline: none;
+}
 .searching__bar__icons {
   display: flex;
   align-items: center;
