@@ -16,6 +16,7 @@ body {
   padding-top: 20px;
 }
 
+/*APARTADO CONTAINER*/
 .container {
   min-height: 800px;
   border: 3px solid #424242;
@@ -26,6 +27,8 @@ body {
   min-width: 380px;
   background-color: var(--color--secundario);
 }
+
+/*APARTADO PHONE SCREEN*/
 .phone__screen {
   border-width: 8px 8px 20px;
   border-style: solid;
@@ -57,6 +60,9 @@ body {
 .time__and__date__img {
   width: 17px;
   height: 17px;
+}
+.time__and__date__date {
+  display: none;
 }
 .phone__screen__date {
   text-align: center;
@@ -194,9 +200,73 @@ body {
   gap: 10px;
   padding: 20px;
   align-items: center;
+  width: 120px;
 }
 .footer__document__link {
   width: max-content;
+}
+.proyectos {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: absolute;
+  background-color: var(--color--secundario);
+  width: 100%;
+  transform: scale(0);
+  transition: ease-out 0.2s;
+  padding-top: 50px;
+}
+.proyectos__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 10px;
+  margin-bottom: 15px;
+}
+.proyectos__time {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--color-primario);
+}
+.proyectos__time__img {
+  width: 17px;
+  height: 17px;
+}
+.proyectos__hr {
+  opacity: 50%;
+}
+.proyectos__navbar__icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.proyectos__cards {
+  margin: 30px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.proyectos__card {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 40px;
+  flex-basis: 160px;
+}
+.proyectos__card__img {
+  width: 150px;
+  height: 110px;
+  border: 1px solid rgba(255, 255, 255, 0.418);
+}
+.proyectos__card__text {
+  color: var(--color-primario);
+}
+.proyectos:target {
+  transform: scale(1);
 }
 .footer__document__img {
   width: 45px;
@@ -276,6 +346,13 @@ body {
   padding: 15px;
   border-radius: 15px;
 }
+.document__notes_content__img {
+  width: 150px;
+  border-radius: 15px 15px 0 0;
+  height: 120px;
+  object-fit: cover;
+  object-position: top;
+}
 .document__notes_content__perfil {
   background-color: var(--backgoound-bars);
   border-radius: 15px;
@@ -285,10 +362,7 @@ body {
   flex-direction: column;
   gap: 20px;
 }
-.document__notes_content__img {
-  width: 150px;
-  border-radius: inherit;
-}
+
 .document__notes_content__body {
   display: flex;
   flex-direction: column;
@@ -322,8 +396,8 @@ body {
   transform: scale(0);
   transition: ease-out 0.2s;
 }
-.document__contact__container:target{
-transform: scale(1);
+.document__contact__container:target {
+  transform: scale(1);
 }
 .document__contact__header__container {
   padding: 40px 18px 10px;
@@ -405,7 +479,7 @@ transform: scale(1);
   text-align: center;
   width: max-content;
 }
-.document__notes_add-2{
+.document__notes_add-2 {
   width: 50px;
   position: absolute;
   right: 30px;
@@ -435,6 +509,9 @@ transform: scale(1);
   font-size: 1rem;
   color: var(--color-primario);
 }
+[placeholder="Buscar..."] {
+  width: 280px;
+}
 .navigation__icons {
   position: absolute;
   top: 92%;
@@ -447,99 +524,15 @@ transform: scale(1);
   outline: 10px solid #928e8e38;
   border-radius: 10px;
 }
-
-/*MOBILE DESIGN*/
-@media (max-width: 600px) {
-  .phone__screen {
-    max-height: 100vh;
-  }
-  .proyectos {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    position: absolute;
-    background-color: var(--color--secundario);
-    width: 100%;
-    transform: scale(0);
-    transition: ease-out 0.2s;
-    padding-top: 50px;
-  }
-  .proyectos__header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2px 10px;
-    margin-bottom: 15px;
-  }
-  .proyectos__time {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    color: var(--color-primario);
-  }
-  .proyectos__time__img {
-    width: 17px;
-    height: 17px;
-  }
-  .proyectos__hr {
-    opacity: 50%;
-  }
-  .proyectos__navbar__icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-bottom: 15px;
-  }
-  .proyectos__cards {
-    margin: 30px 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  .proyectos__card {
-    width: max-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 40px;
-    flex-basis: 160px;
-  }
-  .proyectos__card__img {
-    width: 150px;
-    height: 110px;
-    border: 1px solid rgba(255, 255, 255, 0.418);
-  }
-  .proyectos__card__text {
-    color: var(--color-primario);
-  }
-  .proyectos:target {
-    transform: scale(1);
-  }
-  .navigation__icons {
-    padding-bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 90px;
-  }
-  .navigation__icon__link--tablet {
-    display: none;
-  }
-  .time__and__date__date {
-    display: none;
-  }
-  [placeholder="Buscar..."] {
-    width: 280px;
-  }
-  .footer__document {
-    width: 120px;
-  }
-  .document__notes_content__img {
-    height: 120px;
-    object-fit: cover;
-    object-position: top;
-  }
+.navigation__icons {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+.navigation__icon__link--tablet {
+  display: none;
 }
 /*DESKTOP DESIGN*/
 @media (min-width: 600px) {
@@ -556,6 +549,7 @@ transform: scale(1);
   .phone__screen__header {
     padding: 10px 20px;
   }
+
   .time__and__date__img {
     position: absolute;
     top: 400px;
@@ -575,6 +569,7 @@ transform: scale(1);
   }
   .time__and__date__date {
     color: var(--color-primario);
+    display: contents;
   }
   .container {
     max-width: 1300px;
@@ -595,6 +590,9 @@ transform: scale(1);
     padding: 5px;
     border-radius: 10px;
   }
+  .footer__document{
+    width: max-content;
+  }
   .footer__document__img {
     transform: scale(1.3);
   }
@@ -612,7 +610,8 @@ transform: scale(1);
     align-items: center;
   }
   .document__notes_content__img {
-    width: 290px;
+    height: 348px;
+    width: 370px;
   }
   .document__notes_time {
     font-size: 1rem;
@@ -690,6 +689,9 @@ transform: scale(1);
   }
   .proyectos:target {
     transform: scale(1);
+  }
+  .navigation__icon__link--tablet {
+    display: contents;
   }
 
   [placeholder="Buscar..."],
