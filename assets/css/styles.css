@@ -276,7 +276,7 @@ body {
   padding: 15px;
   border-radius: 15px;
 }
-.footer_document__notes_content__perfil {
+.document__notes_content__perfil {
   background-color: var(--backgoound-bars);
   border-radius: 15px;
   width: max-content;
@@ -317,7 +317,6 @@ body {
   z-index: 2;
   border-radius: 20px;
   padding: 40px 18px 10px;
-  display: none;
 }
 .document__contact__header {
   display: flex;
@@ -461,7 +460,7 @@ body {
   .footer__document {
     width: 120px;
   }
-  .footer_document__notes_content__img {
+  .document__notes_content__img {
     height: 120px;
     object-fit: cover;
     object-position: top;
