@@ -533,18 +533,16 @@ body {
   left: 50%;
   transform: translate(-50%, 50%);
   z-index: 23;
-}
-.navigation__icons a:active {
-  background-color: #928e8e38;
-  outline: 10px solid #928e8e38;
-  border-radius: 10px;
-}
-.navigation__icons {
   padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 90px;
+}
+.navigation__icons a:active {
+  background-color: #928e8e38;
+  outline: 10px solid #928e8e38;
+  border-radius: 10px;
 }
 .navigation__icon__link--tablet {
   display: none;
