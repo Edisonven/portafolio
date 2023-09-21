@@ -82,6 +82,8 @@ body {
   text-decoration: none;
   position: relative;
 }
+
+/*APARTADO BARRA DE BÚSQUEDA*/
 .searching__bar__container {
   position: absolute;
   height: 100%;
@@ -96,6 +98,8 @@ body {
 .searching__bar__container:target {
   transform: scale(1);
 }
+
+/*APARTADO MENU DE BÚSQUEDA DE GOOGLE*/
 .searching__bar__google {
   display: flex;
   flex-direction: column;
@@ -130,16 +134,6 @@ body {
   color: #928e8e;
   font-size: 1rem;
 }
-[placeholder="Buscar..."] {
-  background-color: transparent;
-  border: none;
-  position: absolute;
-  left: 50px;
-  height: 30px;
-}
-[placeholder="Buscar..."]:focus {
-  outline: none;
-}
 .google__content__search {
   display: flex;
   align-items: center;
@@ -170,6 +164,8 @@ body {
 .searching__bar__icon--mic {
   width: 20px;
 }
+
+/*APARTADO FOOTER MENU DE PHONE SCREEN*/
 .phone__screen__footer__container {
   padding-bottom: 50px;
 }
@@ -205,6 +201,8 @@ body {
 .footer__document__link {
   width: max-content;
 }
+
+/*APARTADO MENU DE PROYECTOS EN ÍCONO PROYECTOS (INTERACCIÓN)*/
 .proyectos {
   display: flex;
   flex-direction: column;
@@ -276,6 +274,7 @@ body {
   font-weight: var(--bold-weight);
   color: var(--color-primario);
 }
+/*APARTADO MENU DE NOTAS EN ÍCONO NOTAS (INTERACCIÓN)*/
 .document__notes__container {
   position: absolute;
   top: 0;
@@ -381,6 +380,8 @@ body {
   right: 30px;
   top: 83%;
 }
+
+/*APARTADO MENU DE CONTACTOS EN ÍCONO CONTACTOS (INTERACCIÓN)*/
 .document__contact__container {
   position: absolute;
   background-color: var(--color--gris);
@@ -485,6 +486,18 @@ body {
   right: 30px;
   top: 73%;
 }
+
+/*APARTADO PLACE HOLDERS MODIFICADOS*/
+[placeholder="Buscar..."] {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 50px;
+  height: 30px;
+}
+[placeholder="Buscar..."]:focus {
+  outline: none;
+}
 [placeholder="Buscar notas"] {
   background-color: transparent;
   border: none;
@@ -512,6 +525,8 @@ body {
 [placeholder="Buscar..."] {
   width: 280px;
 }
+
+/*APARTADO BOTONES DE NAVEGACIÓN */
 .navigation__icons {
   position: absolute;
   top: 92%;
@@ -534,7 +549,9 @@ body {
 .navigation__icon__link--tablet {
   display: none;
 }
-/*DESKTOP DESIGN*/
+
+
+/*DESKTOP DESIGN (MODO TABLET*/
 @media (min-width: 600px) {
   .container {
     background-color: var(--color--secundario);
