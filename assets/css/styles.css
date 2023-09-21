@@ -289,23 +289,42 @@ body {
   width: 150px;
   border-radius: inherit;
 }
-.footer_document__notes_content__body{
- display: flex;
- flex-direction: column;
- gap: 10px;
- padding: 0 10px 10px;
+.footer_document__notes_content__body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 10px 10px;
 }
 .footer_document__notes_content__text {
   color: var(--color-primario);
 }
-.footer_document__notes_time{
+.footer_document__notes_time {
   color: #949292;
 }
-.footer_document__notes_add{
+.footer_document__notes_add {
   width: 50px;
   position: absolute;
   right: 30px;
   top: 83%;
+}
+.footer__document__contact__container {
+  position: absolute;
+  background-color: var(--color--gris);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  border-radius: 20px;
+  padding: 40px 18px 10px;
+}
+.footer__document__contact__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 11px;
+  background-color: var(--backgoound-bars);
+  border-radius: 30px;
 }
 [placeholder="Buscar notas"] {
   background-color: transparent;
@@ -317,8 +336,18 @@ body {
   font-size: 1rem;
   color: var(--color-primario);
 }
-[placeholder="Buscar notas"]:focus {
+[placeholder="Buscar notas"]:focus,
+[placeholder="Buscar contactos"] {
   outline: none;
+}
+[placeholder="Buscar contactos"] {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  height: 35px;
+  top: 43px;
+  width: 250px;
+  font-size: 1rem;
 }
 .navigation__icons {
   position: absolute;
@@ -420,7 +449,7 @@ body {
   .footer__document {
     width: 120px;
   }
-  .footer_document__notes_content__img{
+  .footer_document__notes_content__img {
     height: 120px;
     object-fit: cover;
     object-position: top;
@@ -496,10 +525,10 @@ body {
     flex-direction: row;
     align-items: center;
   }
-  .footer_document__notes_content__img{
+  .footer_document__notes_content__img {
     width: 290px;
   }
-  .footer_document__notes_time{
+  .footer_document__notes_time {
     font-size: 1rem;
   }
   .navigation__icons {
