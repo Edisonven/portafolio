@@ -206,7 +206,7 @@ body {
   font-weight: var(--bold-weight);
   color: var(--color-primario);
 }
-.footer__document__notes__container {
+.document__notes__container {
   position: absolute;
   top: 0;
   left: 0;
@@ -218,22 +218,22 @@ body {
   transform: scale(0);
   transition: ease-out 0.2s;
 }
-.footer__document__notes__container:target {
+.document__notes__container:target {
   transform: scale(1);
 }
-.footer__document__notes__header {
+.document__notes__header {
   display: flex;
   align-items: center;
   justify-content: end;
   gap: 90px;
 }
-.footer__document__notes__icons {
+.document__notes__icons {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
 }
-.footer__document__notes__search__bar {
+.document__notes__search__bar {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -242,32 +242,32 @@ body {
   border-radius: 40px;
   margin-top: 25px;
 }
-.footer_document__notes__folders {
+.document__notes__folders {
   display: flex;
   align-items: center;
   margin-top: 20px;
   gap: 20px;
 }
-.footer_document__notes__folders__carpet {
+.document__notes__folders__carpet {
   padding: 12px;
   background-color: var(--color--gris);
   border-radius: 15px;
 }
-.footer_document__notes__folders__text {
+.document__notes__folders__text {
   color: var(--color-primario);
   padding: 15px;
   background-color: var(--backgoound-bars);
   width: max-content;
   border-radius: 15px;
 }
-.footer_document__notes_content__container {
+.document__notes_content__container {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
   margin-top: 20px;
 }
-.footer_document__notes_content {
+.document__notes_content {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -285,29 +285,29 @@ body {
   flex-direction: column;
   gap: 20px;
 }
-.footer_document__notes_content__img {
+.document__notes_content__img {
   width: 150px;
   border-radius: inherit;
 }
-.footer_document__notes_content__body {
+.document__notes_content__body {
   display: flex;
   flex-direction: column;
   gap: 10px;
   padding: 0 10px 10px;
 }
-.footer_document__notes_content__text {
+.document__notes_content__text {
   color: var(--color-primario);
 }
-.footer_document__notes_time {
+.document__notes_time {
   color: #949292;
 }
-.footer_document__notes_add {
+.document__notes_add {
   width: 50px;
   position: absolute;
   right: 30px;
   top: 83%;
 }
-.footer__document__contact__container {
+.document__contact__container {
   position: absolute;
   background-color: var(--color--gris);
   top: 0;
@@ -317,14 +317,26 @@ body {
   z-index: 2;
   border-radius: 20px;
   padding: 40px 18px 10px;
+  display: none;
 }
-.footer__document__contact__header {
+.document__contact__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 7px 11px;
   background-color: var(--backgoound-bars);
   border-radius: 30px;
+}
+.document__contact__menu{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-primario);
+  border: 1px solid #ffffff96;
+  width: max-content;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 3px 10px;
 }
 [placeholder="Buscar notas"] {
   background-color: transparent;
@@ -517,18 +529,18 @@ body {
     color: var(--color-primario);
     font-size: 1.2rem;
   }
-  .footer_document__notes_content {
+  .document__notes_content {
     width: 400px;
     font-size: 1.5rem;
   }
-  .footer_document__notes_content__container {
+  .document__notes_content__container {
     flex-direction: row;
     align-items: center;
   }
-  .footer_document__notes_content__img {
+  .document__notes_content__img {
     width: 290px;
   }
-  .footer_document__notes_time {
+  .document__notes_time {
     font-size: 1rem;
   }
   .navigation__icons {
