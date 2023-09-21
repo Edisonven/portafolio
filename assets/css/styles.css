@@ -281,13 +281,19 @@ body {
   border-radius: 15px;
   width: max-content;
   color: var(--color-primario);
-  padding: 10px 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 .footer_document__notes_content__img {
-  width: 120px;
+  width: 150px;
+  border-radius: inherit;
+}
+.footer_document__notes_content__body{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ padding: 0 10px 10px;
 }
 .footer_document__notes_content__text {
   color: var(--color-primario);
@@ -408,6 +414,11 @@ body {
   .footer__document {
     width: 120px;
   }
+  .footer_document__notes_content__img{
+    height: 120px;
+    object-fit: cover;
+    object-position: top;
+  }
 }
 /*DESKTOP DESIGN*/
 @media (min-width: 600px) {
@@ -480,7 +491,7 @@ body {
     align-items: center;
   }
   .footer_document__notes_content__img{
-    width: 250px;
+    width: 290px;
   }
   .footer_document__notes_time{
     font-size: 1rem;
