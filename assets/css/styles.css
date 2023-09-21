@@ -21,7 +21,7 @@ body {
   border: 3px solid #424242;
   width: 75%;
   margin: 0 auto;
-  border-radius: 20px;
+  border-radius: 30px;
   box-shadow: 5px 5px 10px, -5px -5px 10px;
   min-width: 380px;
   background-color: var(--color--secundario);
@@ -29,7 +29,7 @@ body {
 .phone__screen {
   border-width: 8px 8px 20px;
   border-style: solid;
-  border-radius: 15px 15px 50px 50px;
+  border-radius: 30px 30px 50px 50px;
   height: 95vh;
   background-image: url(../images/fondo-telefono-2.jpg);
   background-size: cover;
@@ -82,7 +82,7 @@ body {
   width: 100%;
   background-color: #1a1919;
   z-index: 12;
-  border-radius: 8px;
+  border-radius: 20px;
   padding: 50px 18px 10px;
   transform: scale(0);
   transition: ease-out 0.2s;
@@ -260,12 +260,40 @@ body {
   width: max-content;
   border-radius: 15px;
 }
+.footer_document__notes_content__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
 .footer_document__notes_content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   background-color: var(--backgoound-bars);
   color: var(--color-primario);
   padding: 15px;
   border-radius: 15px;
-  margin-top: 30px;
+}
+.footer_document__notes_content__perfil {
+  background-color: var(--backgoound-bars);
+  border-radius: 15px;
+  width: max-content;
+  color: var(--color-primario);
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_document__notes_content__img {
+  width: 120px;
+}
+.footer_document__notes_content__text {
+  color: var(--color-primario);
+}
+.footer_document__notes_time{
+  color: #949292;
 }
 [placeholder="Buscar notas"] {
   background-color: transparent;
@@ -391,7 +419,7 @@ body {
     background-image: url(../images/fondo-tablet-2.webp);
     background-size: cover;
     border: 30px solid black;
-    border-radius: 45px;
+    border-radius: 55px;
   }
   .phone__screen__header {
     padding: 10px 20px;
@@ -446,6 +474,16 @@ body {
   .footer_document__notes_content {
     width: 400px;
     font-size: 1.5rem;
+  }
+  .footer_document__notes_content__container {
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer_document__notes_content__img{
+    width: 250px;
+  }
+  .footer_document__notes_time{
+    font-size: 1rem;
   }
   .navigation__icons {
     display: flex;
