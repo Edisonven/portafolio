@@ -301,6 +301,12 @@ body {
 .footer_document__notes_time{
   color: #949292;
 }
+.footer_document__notes_add{
+  width: 50px;
+  position: absolute;
+  right: 30px;
+  top: 83%;
+}
 [placeholder="Buscar notas"] {
   background-color: transparent;
   border: none;
