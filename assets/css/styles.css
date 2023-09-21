@@ -319,6 +319,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transform: scale(0);
+  transition: ease-out 0.2s;
+}
+.document__contact__container:target{
+transform: scale(1);
 }
 .document__contact__header__container {
   padding: 40px 18px 10px;
