@@ -548,7 +548,6 @@ body {
   display: none;
 }
 
-
 /*DESKTOP DESIGN (MODO TABLET*/
 @media (min-width: 600px) {
   .container {
@@ -605,7 +604,7 @@ body {
     padding: 5px;
     border-radius: 10px;
   }
-  .footer__document{
+  .footer__document {
     width: max-content;
   }
   .footer__document__img {
@@ -632,13 +631,13 @@ body {
     font-size: 1rem;
   }
   .navigation__icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 200px;
   }
   .navigation__icon__link {
     display: none;
+  }
+  .navigation__icon__link--tablet {
+    display: contents;
   }
   .proyectos {
     display: flex;
@@ -704,9 +703,6 @@ body {
   }
   .proyectos:target {
     transform: scale(1);
-  }
-  .navigation__icon__link--tablet {
-    display: contents;
   }
 
   [placeholder="Buscar..."],
