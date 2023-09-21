@@ -539,15 +539,17 @@ body {
   justify-content: center;
   gap: 90px;
 }
+
 .navigation__icons a:active {
   background-color: #928e8e38;
   outline: 10px solid #928e8e38;
   border-radius: 10px;
 }
-.navigation__icon__link--tablet {
-  display: none;
+@media (max-width: 600px){
+  .navigation__icon__link--tablet {
+    display: none;
+  }
 }
-
 /*DESKTOP DESIGN (MODO TABLET*/
 @media (min-width: 600px) {
   .container {
@@ -635,9 +637,6 @@ body {
   }
   .navigation__icon__link {
     display: none;
-  }
-  .navigation__icon__link--tablet {
-    display: contents;
   }
   .proyectos {
     display: flex;
