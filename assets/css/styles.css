@@ -529,11 +529,10 @@ body {
 /*APARTADO BOTONES DE NAVEGACIÓN */
 .navigation__icons {
   position: absolute;
-  top: 92%;
+  top: 93%;
   left: 50%;
   transform: translate(-50%, 50%);
   z-index: 23;
-  padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -545,11 +544,10 @@ body {
   outline: 10px solid #928e8e38;
   border-radius: 10px;
 }
-@media (max-width: 600px){
-  .navigation__icon__link--tablet {
-    display: none;
-  }
+.navigation__icon__link--tablet {
+  display: none;
 }
+
 /*DESKTOP DESIGN (MODO TABLET*/
 @media (min-width: 600px) {
   .container {
@@ -634,6 +632,11 @@ body {
   }
   .navigation__icons {
     gap: 200px;
+  }
+  .navigation__icon__link--tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .navigation__icon__link {
     display: none;
