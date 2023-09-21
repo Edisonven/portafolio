@@ -336,6 +336,17 @@ body {
   margin-top: 15px;
   border-radius: 10px;
   padding: 3px 10px;
+  font-size: 0.8rem;
+}
+.document__contact__correo{
+  display: flex;
+  align-items: center;
+  color: var(--color-primario);
+  font-size: 0.8rem;
+  gap: 10px;
+  margin-top: 20px;
+  border-bottom: 1px solid #ffffff7a;
+  padding-bottom: 20px;
 }
 [placeholder="Buscar notas"] {
   background-color: transparent;
