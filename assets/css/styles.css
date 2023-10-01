@@ -503,7 +503,7 @@ body {
   border: none;
   position: absolute;
   left: 60px;
-  width: 250px;
+  width: 70%;
   height: 35px;
   font-size: 1rem;
   color: var(--color-primario);
@@ -518,12 +518,12 @@ body {
   border: none;
   height: 35px;
   top: 43px;
-  width: 250px;
+  width: 70%;
   font-size: 1rem;
   color: var(--color-primario);
 }
 [placeholder="Buscar..."] {
-  width: 280px;
+  width: 70%;
 }
 
 /*APARTADO BOTONES DE NAVEGACIÓN */
@@ -663,6 +663,6 @@ body {
   [placeholder="Buscar..."],
   [placeholder="Buscar notas"],
   [placeholder="Buscar contactos"] {
-    width: 1150px;
+    width: 90%;
   }
 }
