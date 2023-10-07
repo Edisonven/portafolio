@@ -211,7 +211,7 @@ body {
   background-color: var(--color--secundario);
   width: 100%;
   transform: scale(0);
-  transition: ease-out 0.2s;
+  transition: ease-in 0.26s;
   padding-top: 50px;
 }
 .proyectos__header {
@@ -265,6 +265,7 @@ body {
 }
 .proyectos:target {
   transform: scale(1);
+  transform-origin: 50% 100%;
 }
 .footer__document__img {
   width: 45px;
@@ -285,10 +286,11 @@ body {
   padding: 40px 18px 10px;
   z-index: 5;
   transform: scale(0);
-  transition: ease-out 0.2s;
+  transition: ease-in 0.26s;
 }
 .document__notes__container:target {
   transform: scale(1);
+  transform-origin: 50% 100%;
 }
 .document__notes__header {
   display: flex;
@@ -395,10 +397,11 @@ body {
   flex-direction: column;
   justify-content: space-between;
   transform: scale(0);
-  transition: ease-out 0.2s;
+  transition: ease-in 0.26s;
 }
 .document__contact__container:target {
   transform: scale(1);
+  transform-origin: 50% 100%;
 }
 .document__contact__header__container {
   padding: 40px 18px 10px;
